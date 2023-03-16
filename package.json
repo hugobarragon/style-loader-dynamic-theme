@@ -1,0 +1,40 @@
+{
+  "name": "style-loader-dynamic-theme",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Using style-loader for dynamic theme switching css/less/scss...",
+  "main": "lib/index.js",
+  "types": "lib",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugobarragon/style-loader-dynamic-theme.git"
+  },
+  "keywords": [
+    "style-loader",
+    "style-loader/useable",
+    "style loader",
+    "dynamic theme",
+    "theme manager less",
+    "theme manager css",
+    "theme manager scss"
+  ],
+  "author": "Hugo Barragon (http://github.com/hugobarragon)",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugobarragon/style-loader-dynamic-theme/issues"
+  },
+  "homepage": "https://github.com/hugobarragon/style-loader-dynamic-theme#readme",
+  "scripts": {
+    "compile": "tsc -p ."
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "style-loader": "3.x.x"
+  }
+}
