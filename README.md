@@ -45,8 +45,10 @@ Example:
 // sample.js
 import ThemeManager from "style-loader-dynamic-theme";
 import { useEffect } from "react";
-import lightTheme from "./lightTheme.lazy.less";
-import darkTheme from "./darkTheme.lazy.less";
+
+// dynamic load theme files for optimization
+const lightTheme = import("./lightTheme.lazy.less");
+const darkTheme = import("./darkTheme.lazy.less");
 
 export function App(props) {
   useEffect(() => {
